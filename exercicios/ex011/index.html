@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum, minima illum odit mollitia consequuntur quisquam inventore, dolore tenetur harum magni a. Quidem tempora amet illum enim vitae possimus magnam.
+    </p>
+
+<picture>
+    <source media="(max-width: 724px )" srcset="img/foto-p.png">
+    <source media="(max-width: 1024px )" srcset="img/foto-m.png">
+    <img src="img/foto-g.png" alt="">
+</picture>
+
+    <h1>Media de audio</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Insfelismente seu navegador não suporte esse tipo de arquivo em audio <a href="midia/happy-mistake.mp3"
+        >Baixe aqui</a></p>
+    </audio>
+</body>
+</html>
